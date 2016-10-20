@@ -1,0 +1,134 @@
+﻿<html>
+<body>
+<form>
+<table cellspacing="5" cellpadding="5">
+<tr>
+<td>
+<b > USERID :</b></td> 
+<td><input type="text" name="uid" placeholder="Userid" required>
+</td>
+</tr>
+<br/>
+
+<tr>
+<td>
+<b>NAME :</b>
+<td><input type="text" name="nme" placeholder="Name"></td>
+</tr>
+
+<tr>
+<td>
+<b>PASSWORD :</b>
+<td><input type="text" name="pwd" placeholder="password" ></td>
+</tr>
+
+<tr>
+<td>
+<b>CPASSWORD :</b>
+<td><input type="text" name="cpwd" placeholder="cpassword"></td>
+</tr>
+
+<tr>
+<td>
+<b>DOB : </b>
+<td>
+<select  >
+ 
+  <option value="Day">1</option>
+  <option value="Day">2</option>
+  <option value="Day">4</option>
+ <option value="Day">5</option>
+ <option value="Day">6</option>
+ <option value="Day">7</option>
+ <option value="Day">8</option>
+ <option value="Day">9</option>
+ <option value="Day">10</option>
+ <option value="Day">11</option>
+ <option value="Day">12</option>
+ <option value="Day">13</option>
+ <option value="Day">14</option>
+ <option value="Day">15</option>
+ <option value="Day">16</option>
+ <option value="Day">17</option> 
+
+</select>
+
+<select>
+  <option value="Month">January</option>
+  <option value="Month">February</option>
+  <option value="Month">March</option>
+ <option value="Month">April</option>
+<option value="Month">May</option>
+ <option value="Month">June</option>
+ <option value="Month">July</option>
+ <option value="Month">August</option>
+ <option value="Month">September</option>
+ <option value="Month">October</option>
+ <option value="Month">November</option>
+ <option value="Month">December</option>
+</select>
+<select>
+<option value="Year">2000</option>
+<option value="Year">2001</option>
+ <option value="Year">2002</option>
+ <option value="Year">2003</option>
+ <option value="Year">2004</option>
+ <option value="Year">2005</option>
+ <option value="Year">2006</option>
+ <option value="Year">2007</option>
+<option value="Year">2008</option>
+ <option value="Year">2009</option>
+<option value="Year">2010</option>
+ <option value="Year">2011</option>
+ <option value="Year">2012</option>
+ <option value="Year">2013</option>
+ <option value="Year">2014</option>
+ <option value="Year">2015</option>
+<option value="Year">2016</option>
+ <option value="Year">2017</option>
+</select>
+
+ </td>
+</tr>
+
+<tr>
+<td>
+<b>GENDER : </b></td>
+<td>
+<input type="radio" name="gender" value="male" > Male
+  <input type="radio" name="gender" value="female"> Female
+</td>
+
+<tr>
+<td>
+
+<b> ADDRESS :</b></td> 
+<td>
+<textarea  placeholder="write your address" >
+</textarea>
+</td>
+</tr>
+
+<tr>
+<td>
+<b> HOBBIES: </b>
+</td>
+<td>
+<input type="checkbox" name="Music" value="Music"> Music</input>
+ <input type="checkbox" name="Dance" value="Dance"> Dance</input>
+<input type="checkbox" name="Song" value="Singing"> Singing</input>
+
+</td>
+</tr>
+<tr>
+<td>
+<input type="Submit" value="Submit">
+</td>
+<td>
+<input type="Submit" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
